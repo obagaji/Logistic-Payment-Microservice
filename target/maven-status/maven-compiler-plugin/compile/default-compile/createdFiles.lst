@@ -1,0 +1,7 @@
+com\jtc\Logistic\Payment\paymentController\PayController.class
+com\jtc\Logistic\Payment\services\EmailService.class
+com\jtc\Logistic\Payment\LogisticPaymentApplication.class
+com\jtc\Logistic\Payment\payment\ConfigPayPay.class
+com\jtc\Logistic\Payment\emailInterface\EmailSender.class
+com\jtc\Logistic\Payment\payment\Configs.class
+com\jtc\Logistic\Payment\services\PaymentService.class

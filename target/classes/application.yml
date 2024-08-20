@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/payment
+    name: payment
+    password: Margrete1
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+  application:
+      name: Logistic-Payment
+
+server:
+  port: 9888
+
+
+paypal:
+  clientID: ATReLzfHb2320mpnjtiqD08CFZ8EkepiCApKEdAJSuguRoSc8a1e28AYSSnPNbzFye8zpZM7mKDPx_pX
+  client-secret: EDasfpTCqYuCHJXiMgYVe94O99lhd_Y-LDotpCBrRoKvyciaPUZaVdiyVmQKREi5BoiCSKYUOSGjSc1T
+  mode: sandbox
+
+
